@@ -1,0 +1,286 @@
+* {
+	font-family: 'Varela Round', sans-serif;
+}
+nav .brand-logo {
+	font-weight: bold;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+	font-family: 'Signika', sans-serif;
+}
+
+#login .remember {
+	margin-left: 35px;
+}
+
+.modal .modal-content {
+	padding: 10px 10px 0 10px;
+}
+
+.modal .modal-content h4 {
+	font-weight: 500;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+	font-family: 'Signika', sans-serif;
+	text-align: center;
+}
+
+.modal .modal-content .row {
+	margin-bottom: unset;
+}
+#login.modal .modal-content .row {
+	margin-bottom: 10px;
+}
+#login input[type=text]:not(.browser-default).validate + label,
+#send-email input[type=text]:not(.browser-default).validate + label,
+#send-email input[type=email]:not(.browser-default).validate + label {
+	width: 99%;
+}
+
+.modal .modal-footer .btn {
+	margin: 0 3px;
+}
+
+.page-header {
+	position: relative;
+	background: rgba(44, 44, 44, 0.2);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(66, 66, 66, 0.6)));
+    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(66, 66, 66, 0.6));
+    height: 58vh;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.page-header .page-header-bg {
+	position: absolute;
+	z-index: -1;
+	background-image: url('../img/back.jpg');
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.content-header {
+	text-align: left;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+	padding: 80px 0 0 0;
+}
+.content-header h2 {
+	font-size: 2.6rem;
+	font-weight: 500;
+	margin-top: 35px;
+	font-family: 'Signika', sans-serif;
+}
+.content-header h5 {
+	font-size: 1.5rem;
+	color: #e0e0e0;
+}
+.content-header .col {
+	margin-bottom: 30px;
+}
+.content-header .card-panel {
+	border-radius: 30px;
+	background-color: rgba(66, 165, 245, 0.6);
+}
+.content-header .card-panel .row {
+	margin-bottom: unset;
+	text-align: center;
+}
+.content-header .card-panel .col {
+	margin-bottom: unset;
+}
+.content-header .card-panel i {
+	font-size: 4rem;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.account {
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	margin-top: -35px;
+	margin-bottom: 30px;
+}
+.account a {
+	padding: 30px 20px 20px 20px;
+	margin: 0 10px;
+	color: #fff;
+	border-radius: 50%;
+}
+.account a i {
+	padding: 0;
+	margin: 0;
+	font-size: 2.2rem;
+}
+
+.petugas {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.petugas .img {
+	width: 60%;
+	height: 150px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10%;
+	border: 2px solid rgba(0, 0, 0, 0.4);
+	box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.4);
+	margin: 0 auto;
+}
+.petugas .card {
+	margin: 0 auto;
+	background: linear-gradient(70deg, #eeeeee, #fafafa);
+	padding: 3px 0;
+}
+.petugas .card h5 {
+	font-weight: 500;
+	text-shadow: 1px 0 2px rgba(0, 0, 0, 0.3);
+	margin-bottom: 15px;
+	font-family: 'Signika', sans-serif;
+}
+.petugas table {
+	margin-top: 10px;
+}
+.petugas table th,
+.petugas table td {
+	padding: 5px 10px;
+}
+
+.pencarian-barang .card {
+	padding: 15px 0;
+	background: linear-gradient(70deg, #eeeeee, #fafafa);
+}
+.pencarian-barang .card .row {
+	margin-bottom: unset;
+}
+
+#list-barang .row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: unset;
+}
+#list-barang .row .col.s6,
+#list-barang .row .col.m3,
+#list-barang .row .col.l2 {
+	margin-left: unset;
+}
+#list-barang .card-panel {
+	padding: 0;
+	background: linear-gradient(70deg, #eeeeee, #fafafa);
+	position: relative;
+	overflow: hidden;
+}
+#list-barang .card-panel .img-brg {
+	width: 100%;
+	height: 100px;
+	background-size: cover;
+	background-position: center;
+}
+#list-barang .card-panel .logo-promo,
+#list-barang .card-panel .logo-diskon {
+	position: absolute;
+	width: 40px;
+	right: 0;
+}
+#list-barang .card-panel .logo-diskon {
+	left: 0;
+}
+#list-barang .card-panel table th {
+	padding: 5px;
+}
+#list-barang .pagination li.active {
+	background-color: #1565c0;
+}
+#list-barang .parent-btn-paginasi {
+	display: flex;
+	justify-content: center;
+}
+#list-barang .pagination {
+	width: unset;
+	margin-bottom: 40px;
+}
+
+/* registrasi */
+.registrasi .card-panel {
+	margin-top: 50px;
+}
+.registrasi h4 {
+	margin: 0;
+}
+
+.footer {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+.footer .row {
+	margin-bottom: unset;
+}
+.footer h5 {
+	font-family: 'Signika', sans-serif;
+}
+
+@media only screen and (max-width: 992px) {
+	.content-header {
+		text-align: center;
+		padding: 45px 0 0 0;
+	}
+	.content-header h2 {
+		font-size: 2.8rem;
+	}
+	.content-header h5 {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	#login .modal-content h4 {
+		font-size: 1.6rem;
+	}
+	#send-wa .modal-content h4 {
+		font-size: 1.6rem;
+	}
+	#send-email .modal-content h4 {
+		font-size: 1.6rem;
+	}
+
+	nav .brand-logo {
+		font-size: 1.5rem;
+	}
+	.content-header {
+		text-align: center;
+		padding: 35px 0 0 0;
+	}
+	.content-header h2 {
+		font-size: 1.7rem;
+		margin-top: 0;
+	}
+	.content-header h5 {
+		font-size: 1.1rem;
+	}
+
+	.content-header .col {
+		margin-bottom: 10px;
+	}
+	.content-header .card-panel {
+		padding: 1.2rem;
+	}
+
+	.account {
+		margin-top: -33px;
+	}
+	.account a {
+		padding: 20px 14px 13px 14px;
+		margin: 0 5px;
+		color: #fff;
+		border-radius: 50%;
+	}
+	.account a i {
+		padding: 0;
+		margin: 0;
+		font-size: 1.8rem;
+	}
+
+	.petugas .img {
+		width: 30%;
+		height: 100px;
+	}
+}

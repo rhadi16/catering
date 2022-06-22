@@ -1,0 +1,260 @@
+* {
+	font-family: 'Varela Round', sans-serif;
+}
+nav .brand-logo {
+	font-weight: bold;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+	font-family: 'Signika', sans-serif;
+}
+/* Pegawai.php & liat-barang.php & saran-diskon*/
+#pegawai .title,
+#list-barang .title,
+#saran-diskon .title {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 500;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+	font-family: 'Signika', sans-serif;
+}
+#saran-diskon .title {
+	line-height: 2.6rem;
+	font-family: 'Signika', sans-serif;
+}
+#pegawai .list,
+#list-barang .list,
+#saran-diskon .list {
+	margin-top: 30px;
+}
+#saran-diskon .list {
+	margin-bottom: 50px;
+}
+#pegawai .list .row.parent,
+#list-barang .list .row.parent {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#pegawai .list .row.parent .col.s12,
+#pegawai .list .row.parent .col.m6,
+#pegawai .list .row.parent .col.l4,
+#list-barang .list .row.parent .col.s12,
+#list-barang .list .row.parent .col.m6,
+#list-barang .list .row.parent .col.l4 {
+	margin-left: unset;
+}
+#pegawai .list .card-panel,
+#list-barang .list .card-panel {
+	background: linear-gradient(70deg, #eeeeee, #fafafa);
+	padding: 10px 0 0 0;
+}
+#pegawai .pencarian-barang .card-panel {
+	padding: 15px 0;
+}
+#pegawai .list .card-panel .img,
+#list-barang .list .card-panel .img {
+	width: 60%;
+	height: 130px;
+	background-size: cover;
+	background-position: center;
+	margin: 5px auto;
+	border-radius: 20px;
+	box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+#pegawai .list .card-panel table th,
+#pegawai .list .card-panel table td,
+#list-barang .list .card-panel table th,
+#list-barang .list .card-panel table td {
+	padding: 5px;
+}
+#pegawai .list .card-panel table .btn,
+#list-barang .list .card-panel table .btn,
+#saran-diskon .list .card-panel table .btn {
+	height: unset;
+	line-height: unset;
+	padding: 3px;
+	margin: 3px 3px;
+	border-radius: 5px;
+	text-transform: capitalize;
+}
+#pegawai #tambah-pegawai .modal-content,
+#pegawai .edit-pegawai .modal-content,
+#list-barang #tambah-barang .modal-content,
+#list-barang .edit-barang .modal-content,
+#saran-diskon .input-dispro .modal-content {
+	padding-bottom: unset;
+}
+#pegawai #tambah-pegawai .modal-content h4,
+#pegawai .edit-pegawai .modal-content h4,
+#list-barang #tambah-barang .modal-content h4,
+#list-barang .edit-barang .modal-content h4,
+#saran-diskon .input-dispro .modal-content h4 {
+	font-weight: 500;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+	font-family: 'Signika', sans-serif;
+}
+#pegawai #tambah-pegawai .modal-content .file-field .btn,
+#pegawai .edit-pegawai .modal-content .file-field .btn,
+#list-barang #tambah-barang .modal-content .file-field .btn,
+#list-barang .edit-barang .modal-content .file-field .btn {
+	height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+}
+/*#pegawai input[type=text]:not(.browser-default).validate + label,*/
+#list-barang input[type=text]:not(.browser-default).validate + label,
+#pegawai input[type=number]:not(.browser-default).validate + label,
+#list-barang input[type=number]:not(.browser-default).validate + label,
+#saran-diskon input[type=text]:not(.browser-default).validate + label,
+#saran-diskon input[type=number]:not(.browser-default).validate + label {
+	width: 99%;
+}
+#pegawai .pagination li.active {
+	background-color: #1565c0;
+}
+#pegawai .parent-btn-paginasi {
+	display: flex;
+	justify-content: center;
+}
+#pegawai .pagination {
+	width: unset;
+	margin-bottom: 40px;
+}
+
+/* list-barang.php */
+#list-barang .pencarian-barang .card {
+	padding: 15px 0;
+	background: linear-gradient(70deg, #eeeeee, #fafafa);
+	margin-top: 20px;
+}
+#list-barang .pencarian-barang .card .row,
+#pegawai .pencarian-barang .card-panel .row,
+#pegawai .list .row {
+	margin-bottom: unset;
+}
+#list-barang .pagination li.active {
+	background-color: #1565c0;
+}
+#list-barang .parent-btn-paginasi {
+	display: flex;
+	justify-content: center;
+}
+#list-barang .pagination {
+	width: unset;
+	margin-bottom: 40px;
+}
+
+/* Halaman Utama */
+#hal-utama .card-panel {
+	margin: 35px auto;
+	padding-bottom: 14px;
+	width: 300px;
+}
+#hal-utama .card-panel .row {
+	margin-bottom: unset;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#hal-utama .card-panel .row .col.s12,
+#hal-utama .card-panel .row .col.m6 {
+	margin-left: unset;
+}
+#hal-utama .card-panel .row .col {
+	margin-bottom: 10px;
+}
+#hal-utama .card-panel .row .col a {
+	width: 100%;
+	height: unset;
+    line-height: unset;
+    padding: 5px 16px;
+}
+#pilih-admin h4,
+#cetak-beberapa-pembelian h4,
+#cetak-beberapa-penjualan h4 {
+	font-weight: 500;
+	font-size: 2rem;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	font-family: 'Signika', sans-serif;
+}
+#pilih-admin .modal-footer a,
+#pilih-admin .modal-footer button,
+#cetak-beberapa-pembelian .modal-footer a,
+#cetak-beberapa-pembelian .modal-footer button,
+#cetak-beberapa-penjualan .modal-footer a,
+#cetak-beberapa-penjualan .modal-footer button {
+	margin: 5px;
+}
+#hal-utama #cetak-beberapa-pembelian,
+#hal-utama #cetak-beberapa-penjualan {
+	overflow: unset;
+}
+#hal-utama #cetak-beberapa-pembelian .modal-content,
+#hal-utama #cetak-beberapa-penjualan .modal-content {
+	padding: 10px 10px 0 10px;
+}
+#hal-utama #cetak-beberapa-pembelian .modal-content.datepicker-container,
+#hal-utama #cetak-beberapa-penjualan .modal-content.datepicker-container {
+	padding: 0;
+}
+#hal-utama #cetak-beberapa-pembelian .modal-content .row,
+#hal-utama #cetak-beberapa-penjualan .modal-content .row {
+	margin-bottom: unset;
+}
+#hal-utama div.modal.datepicker-modal.open {
+	width: 100%;
+}
+
+/* saran-diskon.php */
+#saran-diskon .pencarian-barang .card {
+	padding: 15px 0;
+	background: linear-gradient(70deg, #eeeeee, #fafafa);
+	margin-top: 20px;
+}
+#saran-diskon .pencarian-barang .card .row {
+	margin-bottom: unset;
+}
+#saran-diskon .list .card-panel {
+	padding: 0;
+}
+
+@media only screen and (max-width: 992px) {
+	/* saran-diskon.php */
+	#saran-diskon .title {
+		font-size: 1.9rem;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	nav .brand-logo {
+		font-size: 1.5rem;
+	}
+	/* saran-diskon.php */
+	#saran-diskon .title {
+		font-size: 1.4rem;
+		line-height: 1.9rem;
+	}
+
+	/* pegawai.php & list-barang.php & saran-diskon.php*/
+	#hal-utama .card-panel {
+		width: 100%;
+	}
+	#pegawai #tambah-pegawai .modal-content h4,
+	#pegawai .edit-pegawai .modal-content h4,
+	#list-barang #tambah-barang .modal-content h4,
+	#list-barang .edit-barang .modal-content h4,
+	#saran-diskon .input-dispro .modal-content h4 {
+		font-size: 1.4rem;
+	}
+	#pegawai #tambah-pegawai .modal-content,
+	#pegawai .edit-pegawai .modal-content,
+	#list-barang #tambah-barang .modal-content,
+	#list-barang .edit-barang .modal-content,
+	#saran-diskon .input-dispro .modal-content {
+		padding: 10px 10px 0 10px;
+	}
+	#pilih-admin h4,
+	#cetak-beberapa-pembelian h4,
+	#cetak-beberapa-penjualan h4 {
+		font-size: 1.5rem;
+	}
+}

@@ -1,0 +1,160 @@
+.ui-helper-hidden-accessible{
+  display:none
+}
+
+.ui-autocomplete {
+  border: 1px solid #ccc;
+  max-width: 500px;
+}
+.ui-autocomplete-input {
+  width: 500px;
+  display: inline-block;
+}
+.ui-menu-item {
+  list-style: none;
+}
+.ui-menu-item > div {
+  cursor: pointer;
+  display: block;
+  padding: 0.5rem;
+  background: #fff;
+}
+div.ui-state-active {
+  background: #eee;
+}
+.custom-combobox-toggle {
+  position: static;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  width: 1.75em;
+  height: 2.1em;
+  margin-left: -32px;
+  margin-bottom: -.75em;
+  padding: 0;
+  background-color: transparent;
+  background-origin: content-box;
+  background-position: right -1rem center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 9px 6px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>");
+}
+.ui-autocomplete {
+  box-shadow: 0 0 5px #cacaca;
+}
+
+#pembelian,
+#penjualan {
+  margin-top: 20px;
+}
+#pembelian #tambah-kolom,
+#penjualan #tambah-kolom {
+  margin-bottom: 10px;
+}
+#pembelian .card-panel,
+#penjualan .card-panel {
+  position: relative;
+  padding: 20px 20px 0 20px;
+}
+#pembelian .card-panel.bg,
+#penjualan .card-panel.bg {
+  background: linear-gradient(70deg, #eeeeee, #fafafa);
+}
+#pembelian .card-panel .row,
+#penjualan .card-panel .row {
+  margin-bottom: unset;
+}
+#pembelian .card-panel .remove,
+#penjualan .card-panel .remove {
+  position: absolute;
+  z-index: unset;
+  right: 10px;
+  top: 10px;
+  height: unset;
+  line-height: unset;
+  padding: 0 5px;
+}
+#pembelian button#input-pembelian,
+#penjualan button#input-penjualan {
+  z-index: unset;
+}
+#pembelian .title-form,
+#penjualan .title-form {
+  font-weight: 500;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 13px;
+  font-family: 'Signika', sans-serif;
+}
+#pembelian .list-barang,
+#penjualan .list-penjualan {
+  padding-bottom: 40px;
+}
+#list-barang .carousel {
+  height: 380px;
+}
+#list-barang .carousel .carousel-item {
+  top: -60px;
+}
+#pembelian .list-barang .card-panel,
+#penjualan .list-penjualan .card-panel {
+  padding: 0;
+}
+#pembelian .list-barang .card-panel table a,
+#penjualan .list-penjualan .card-panel table a {
+  height: unset;
+  line-height: unset;
+  padding: 0 5px;
+  text-transform: capitalize;
+  margin: 0 3px;
+}
+#pembelian .list-barang .modal .modal-content h4,
+#penjualan .list-penjualan .modal .modal-content h4 {
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+#pembelian .list-barang .btn-delete a,
+#penjualan .list-penjualan .btn-delete a {
+  margin: 5px;
+  z-index: unset;
+}
+#pembelian .list-barang .pencarian-barang .card-panel,
+#penjualan .list-penjualan .pencarian-barang .card-panel {
+  padding: 15px 0;
+}
+#pembelian .select-wrapper input.select-dropdown,
+#pembelian .pencarian-barang button,
+#penjualan .select-wrapper input.select-dropdown,
+#penjualan .pencarian-barang button {
+  z-index: unset;
+}
+
+.pesan {
+  display: flex;
+  justify-content: center;
+}
+.btn-pesan {
+  padding: 5px 10px;
+  height: unset;
+  line-height: unset;
+}
+
+@media only screen and (max-width: 992px) {
+  .ui-autocomplete {
+    max-width: 190px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .ui-autocomplete {
+    max-width: 220px;
+  }
+
+  #pembelian .list-barang .modal .modal-content h4,
+  #penjualan .list-penjualan .modal .modal-content h4 {
+    font-size: 1.4rem;
+  }
+  #pembelian .list-barang .modal .modal-content,
+  #penjualan .list-penjualan .modal .modal-content {
+    padding: 10px 10px 0 10px;
+  }
+}
